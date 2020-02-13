@@ -27,21 +27,21 @@
   
    <topic name="comida">
     <category>
-    <pattern>* SI *</pattern>
+    <pattern>SI</pattern>
     <template>
     Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
     </template>
    </category>
    
    <category>
-    <pattern>* CORRECTO *</pattern>
+    <pattern>CORRECTO</pattern>
     <template>
     Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
     </template>
    </category>
    
    <category>
-    <pattern>* AFIRMATIVO *</pattern>
+    <pattern>AFIRMATIVO</pattern>
     <template>
     Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
     </template>
@@ -55,7 +55,7 @@
    </category>
    
    <category>
-    <pattern>* NO *</pattern>
+    <pattern>NO</pattern>
     <template>
    Es que como preguntaste por comida, pense que andabas buscando un lugar para comer, Â¿en que te puedo ayudar?
     </template>
@@ -65,21 +65,21 @@
   
      <topic name="comer">
     <category>
-    <pattern>* SI *</pattern>
+    <pattern>SI</pattern>
     <template>
     Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
     </template>
    </category>
    
    <category>
-    <pattern>* CORRECTO *</pattern>
+    <pattern>CORRECTO</pattern>
     <template>
     Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
     </template>
    </category>
    
    <category>
-    <pattern>* AFIRMATIVO *</pattern>
+    <pattern>AFIRMATIVO</pattern>
     <template>
     Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
     </template>
@@ -93,7 +93,7 @@
    </category>
    
    <category>
-    <pattern>* NO *</pattern>
+    <pattern>NO</pattern>
     <template>
    Es que como preguntaste por lugares donde comer, pense que andabas buscando un lugar para comer, Â¿en que te puedo ayudar?
     </template>
