@@ -2,24 +2,24 @@
 <aiml>
     
   <category>
-    <pattern>* DONDE PUEDO COMER *</pattern>
+    <pattern>DONDE PUEDO COMER</pattern>
     <template>Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha</template>
   </category>
 
   <category>
-    <pattern>* LUGARES DE COMIDA *</pattern>
+    <pattern>LUGARES DE COMIDA</pattern>
     <template>Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha</template>
   </category>
   
     <category>
-    <pattern>* COMER *</pattern>
+    <pattern>COMER</pattern>
     <template><think><set name="topic">comer</set></think>
     Â¿Estas buscando lugares donde puedes comer?
     </template>
   </category>
   
       <category>
-    <pattern>* COMIDA *</pattern>
+    <pattern>COMIDA</pattern>
     <template><think><set name="topic">comida</set></think>
     Â¿Estas buscando lugares donde puedes comer?
     </template>
