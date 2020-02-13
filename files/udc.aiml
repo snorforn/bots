@@ -5,7 +5,7 @@
     <template>I have no answer for that.</template>
   </category>
 <category>
-    <pattern>hola</pattern>
-    <template>Hola</template>
+    <pattern>* Zofri *</pattern>
+    <template>La zofri esta abierta de  10:00 a 21:00 horas de lunes a sabado</template>
 </category>
 </aiml>
