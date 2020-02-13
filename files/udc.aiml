@@ -1,11 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
+    
   <category>
-    <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <pattern>* DONDE PUEDO COMER *</pattern>
+    <template>Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha</template>
   </category>
-<category>
-    <pattern>* Zofri *</pattern>
-    <template>La zofri esta abierta de  10:00 a 21:00 horas de lunes a sabado</template>
-</category>
+
+  <category>
+    <pattern>* LUGARES DE COMIDA *</pattern>
+    <template>Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha</template>
+  </category>
+  
+    <category>
+    <pattern>* COMER *</pattern>
+    <template><think><set name="topic">comer</set></think>
+    Â¿Estas buscando lugares donde puedes comer?
+    </template>
+  </category>
+  
+      <category>
+    <pattern>* COMIDA *</pattern>
+    <template><think><set name="topic">comida</set></think>
+    Â¿Estas buscando lugares donde puedes comer?
+    </template>
+  </category>
+  
+   <topic name="comida">
+    <category>
+    <pattern>* SI *</pattern>
+    <template>
+    Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
+    </template>
+   </category>
+   
+   <category>
+    <pattern>* CORRECTO *</pattern>
+    <template>
+    Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
+    </template>
+   </category>
+   
+   <category>
+    <pattern>* AFIRMATIVO *</pattern>
+    <template>
+    Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
+    </template>
+   </category>
+   
+    <category>
+    <pattern>ESO ES LO QUE BUSCO</pattern>
+    <template>
+    Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
+    </template>
+   </category>
+   
+   <category>
+    <pattern>* NO *</pattern>
+    <template>
+   Es que como preguntaste por comida, pense que andabas buscando un lugar para comer, Â¿en que te puedo ayudar?
+    </template>
+   </category>
+   
+  </topic>
+  
+     <topic name="comer">
+    <category>
+    <pattern>* SI *</pattern>
+    <template>
+    Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
+    </template>
+   </category>
+   
+   <category>
+    <pattern>* CORRECTO *</pattern>
+    <template>
+    Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
+    </template>
+   </category>
+   
+   <category>
+    <pattern>* AFIRMATIVO *</pattern>
+    <template>
+    Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
+    </template>
+   </category>
+   
+    <category>
+    <pattern>ESO ES LO QUE BUSCO</pattern>
+    <template>
+    Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
+    </template>
+   </category>
+   
+   <category>
+    <pattern>* NO *</pattern>
+    <template>
+   Es que como preguntaste por lugares donde comer, pense que andabas buscando un lugar para comer, Â¿en que te puedo ayudar?
+    </template>
+   </category>
+   
+  </topic>
+  
+
 </aiml>
