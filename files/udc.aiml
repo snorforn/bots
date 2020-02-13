@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
     
   <category>
@@ -101,5 +101,157 @@
    
   </topic>
   
+  <category>
+    <pattern>DONDE PUEDO SACAR EFECTIVO</pattern>
+    <template>Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique</template>
+  </category>
+  
+   <category>
+    <pattern>DONDE PUEDO SACAR PLATA</pattern>
+    <template>Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique</template>
+  </category>
+  
+  <category>
+    <pattern>DONDE ENCUENTRO UN CAJERO</pattern>
+    <template>Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique</template>
+  </category>
+  
+  
+   <category>
+    <pattern>EFECTIVO</pattern>
+    <template><think><set name="topic">efectivo</set></think>
+    Â¿Estas buscando donde sacar efectivo de un cajero?
+    </template>
+  </category>
+  
+     <category>
+    <pattern>PLATA</pattern>
+    <template><think><set name="topic">plata</set></think>
+    Â¿Estas buscando donde sacar efectivo de un cajero?
+    </template>
+  </category>
+  
+       <category>
+    <pattern>CAJERO</pattern>
+    <template><think><set name="topic">cajero</set></think>
+    Â¿Estas buscando donde sacar efectivo de un cajero?
+    </template>
+  </category>
+
+   <topic name="efectivo">
+    <category>
+    <pattern>SI</pattern>
+    <template>
+     Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
+    </template>
+   </category>
+   
+   <category>
+    <pattern>CORRECTO</pattern>
+    <template>
+   Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
+    </template>
+   </category>
+   
+   <category>
+    <pattern>AFIRMATIVO</pattern>
+    <template>
+   Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
+    </template>
+   </category>
+   
+    <category>
+    <pattern>ESO ES LO QUE BUSCO</pattern>
+    <template>
+   Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
+    </template>
+   </category>
+   
+   <category>
+    <pattern>NO</pattern>
+    <template>
+   Es que como preguntaste por efectivo, pense que andabas buscando un lugar para obtener efectivo de un cajero, pero tambien podrias sacar desdes un sencillito ouna caja vecina cerca
+    </template>
+   </category>
+   
+  </topic>
+  
+     <topic name="plata">
+    <category>
+    <pattern>SI</pattern>
+    <template>
+     Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
+    </template>
+   </category>
+   
+   <category>
+    <pattern>CORRECTO</pattern>
+    <template>
+   Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
+    </template>
+   </category>
+   
+   <category>
+    <pattern>AFIRMATIVO</pattern>
+    <template>
+   Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
+    </template>
+   </category>
+   
+    <category>
+    <pattern>ESO ES LO QUE BUSCO</pattern>
+    <template>
+   Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
+    </template>
+   </category>
+   
+   <category>
+    <pattern>NO</pattern>
+    <template>
+   Es que como preguntaste por plata, pense que andabas buscando un lugar para obtener efectivo de un cajero, pero tambien podrias sacar desdes un sencillito ouna caja vecina cerca
+    </template>
+   </category>
+   
+  </topic>
+  
+       <topic name="cajero">
+    <category>
+    <pattern>SI</pattern>
+    <template>
+     Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
+    </template>
+   </category>
+   
+   <category>
+    <pattern>CORRECTO</pattern>
+    <template>
+   Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
+    </template>
+   </category>
+   
+   <category>
+    <pattern>AFIRMATIVO</pattern>
+    <template>
+   Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
+    </template>
+   </category>
+   
+    <category>
+    <pattern>ESO ES LO QUE BUSCO</pattern>
+    <template>
+   Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
+    </template>
+   </category>
+   
+   <category>
+    <pattern>NO</pattern>
+    <template>
+   Es que como preguntaste por cajero, pense que andabas buscando un lugar para obtener efectivo de un cajero, pero tambien podrias sacar desdes un sencillito ouna caja vecina cerca
+    </template>
+   </category>
+   
+  </topic>
+
+
 
 </aiml>
