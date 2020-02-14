@@ -12,6 +12,11 @@
   </category>
   
     <category>
+    <pattern>LUGARES PARA COMER</pattern>
+    <template>Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha</template>
+  </category>
+  
+    <category>
     <pattern>COMER</pattern>
     <template><think><set name="topic">comer</set></think>
     Â¿Estas buscando lugares donde puedes comer?
@@ -176,7 +181,7 @@
    
   </topic>
   
-     <topic name="plata">
+   <topic name="plata">
     <category>
     <pattern>SI</pattern>
     <template>
@@ -251,6 +256,67 @@
    </category>
    
   </topic>
+  
+  <category>
+    <pattern>DONDE QUEDAN LOS CARABINEROS</pattern>
+    <template>La direcciÃ³n de la primera comisaria se encuentra en: Bernado O'Higgins 427</template>
+  </category>
+  
+  <category>
+    <pattern>CARABINEROS</pattern>
+    <template><think><set name="topic">carabineros</set></think>
+    Â¿Estas buscando la direcciÃ³n de los carabineros?
+    </template>
+  </category>
+  
+  <topic name="carabineros">
+    <category>
+    <pattern>SI</pattern>
+    <template>
+    La direcciÃ³n de la primera comisaria se encuentra en: Bernado O'Higgins 427
+    </template>
+   </category>
+   
+   <category>
+    <pattern>CORRECTO</pattern>
+    <template>
+  La direcciÃ³n de la primera comisaria se encuentra en: Bernado O'Higgins 427
+    </template>
+   </category>
+   
+   <category>
+    <pattern>AFIRMATIVO</pattern>
+    <template>
+   La direcciÃ³n de la primera comisaria se encuentra en: Bernado O'Higgins 427
+    </template>
+   </category>
+   
+    <category>
+    <pattern>ESO ES LO QUE BUSCO</pattern>
+    <template>
+   La direcciÃ³n de la primera comisaria se encuentra en: Bernado O'Higgins 427
+    </template>
+   </category>
+   
+   <category>
+    <pattern>NO</pattern>
+    <template>
+   Es que como preguntaste por carabineros, pense que andabas buscando la primera comisaria de carabineros.
+    </template>
+   </category>
+   
+  </topic>
+  
+  
+  <category>
+    <pattern>PACOS</pattern>
+    <template>DIJO PACO, ESO ES PARTEEEE</template>
+  </category>
+  
+    <category>
+    <pattern>PACOS</pattern>
+    <template>Habra querido decir carabineros de Chile</template>
+  </category>
 
 
 
