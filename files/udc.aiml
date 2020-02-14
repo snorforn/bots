@@ -310,13 +310,15 @@
   
   <category>
     <pattern>PACOS</pattern>
-    <template>DIJO PACO, ESO ES PARTEEEE</template>
+    <template>
+        <random>
+       <li> DIJO PACO, ESO ES PARTEEEE </li>
+       <li> Habra querido decir carabineros de Chile </li>
+        </random>
+    </template>
   </category>
   
-    <category>
-    <pattern>PACOS</pattern>
-    <template>Habra querido decir carabineros de Chile</template>
-  </category>
+
 
 
 
