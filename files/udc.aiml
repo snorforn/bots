@@ -341,7 +341,7 @@
     </template>
    </category>
    
-      <category>
+  <category>
     <pattern>*</pattern>
     <template>
       no entiendo tu respuesta. Â¿podrÃ­as responder de nuevo a la pregunta si estas buscando lugares para bailar?
@@ -349,6 +349,97 @@
    </category>
    
   </topic>
+  
+    <category>
+    <pattern>DONDE PUEDO TOMAR UN TRAGO</pattern>
+    <template>Existen varios locales donde se puede tomar bebidas alcoholicas, estos se encuentran  dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha</template>
+  </category>
 
+  <category>
+    <pattern>LUGARES DE BEBIDA ALCOHILICA</pattern>
+    <template>Existen varios locales donde se puede tomar bebidas alcoholicas, estos se encuentran  dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha</template>
+  </category>
+  
+    <category>
+    <pattern>LUGARES PARA TOMAR</pattern>
+    <template>Existen varios locales donde se puede tomar bebidas alcoholicas, estos se encuentran dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha</template>
+  </category>
+  
+      <category>
+    <pattern>TOMAR UN COPETE</pattern>
+    <template>SHAAA el loco curao, Existen varios locales donde se puede tomar copetes, estos se encuentran  dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha</template>
+  </category>
+  
+   <category>
+    <pattern>TOMAR COPETE</pattern>
+    <template>SHAAA el loco curao, Existen varios locales donde se puede tomar copetes, estos se encuentran  dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha</template>
+  </category>
+  
+    <category>
+    <pattern>COMER</pattern>
+    <template><think><set name="topic">comer</set></think>
+    Â¿Estas buscando lugares donde puedes comer?
+    </template>
+  </category>
+  
+    <category>
+    <pattern>BEBIDA ALCOHILICA</pattern>
+    <template>Existen varios locales donde se puede tomar bebidas alcoholicas, estos se encuentran  dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha</template>
+  </category>
+  
+      <category>
+    <pattern>TOMAR UN TRAGO</pattern>
+    <template>Existen varios locales donde se puede tomar bebidas alcoholicas, estos se encuentran  dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha</template>
+  </category>
+  
+ <category>
+    <pattern>TOMAR TRAGO</pattern>
+    <template>Existen varios locales donde se puede tomar bebidas alcoholicas, estos se encuentran  dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha</template>
+  </category>
+  
+ <category>
+    <pattern>EMPINAR EL CODO</pattern>
+    <template>SHAAA el loco curao, Existen varios locales donde se puede tomar copetes, estos se encuentran  dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha</template>
+  </category>
+  
+ <category>
+    <pattern>PARA QUEDAR POSTRE</pattern>
+    <template>SHAAA el loco curao, Existen varios locales donde se puede tomar copetes, estos se encuentran  dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha</template>
+  </category>
+
+   <category>
+    <pattern>LUGARES DE INTERES EN IQUIQUE</pattern>
+    <template>Existen varios lugares de interes en Iquique, estos son: el museo esmeralda, el cerro dragon, playa cavancha, la Zofri, el marinero desconocido, el paseo baquedano, igual el objetivo de esta app es indicarte estos puntos de interes y mas. </template>
+  </category>
+  
+     <category>
+    <pattern>LUGARES TURISTICOS EN IQUIQUE</pattern>
+    <template>Existen varios lugares de interes en Iquique, estos son: el museo esmeralda, el cerro dragon, playa cavancha, la Zofri, el marinero desconocido, el paseo baquedano, igual el objetivo de esta app es indicarte estos puntos de interes y mas. </template>
+  </category>
+  
+     <category>
+    <pattern>LUGARES TURISTICOS</pattern>
+    <template>Existen varios lugares de interes en Iquique, estos son: el museo esmeralda, el cerro dragon, playa cavancha, la Zofri, el marinero desconocido, el paseo baquedano, igual el objetivo de esta app es indicarte estos puntos de interes y mas. </template>
+  </category>
+  
+    <category>
+    <pattern>DONDE QUEDAN EL HOSPITAL</pattern>
+    <template>El hospital de Iquique se encuentra en la intersecciÃ³n de: Avenida Heroe de la ConcepciÃ³n con Serrano.</template>
+  </category>
+  
+  <category>
+    <pattern>HOSPITAL</pattern>
+      <template>
+    Si estas buscando el hospital de Iquique, se encuentra en la intersecciÃ³n de: Avenida Heroe de la ConcepciÃ³n con Serrano.
+    </template>
+  </category>
+  
+    <category>
+    <pattern>DAÃO</pattern>
+      <template>
+    Si te hiciste daÃ±o te recomiendo que busques un centro asistencial de salud, el hospital de Iquique se encuentra en la intersecciÃ³n de: Avenida Heroe de la ConcepciÃ³n con Serrano.
+    </template>
+  </category>
+  
 
 </aiml>
