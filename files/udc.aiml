@@ -307,19 +307,130 @@
    
   </topic>
   
-  
+ 
   <category>
     <pattern>PACOS</pattern>
     <template>
         <random>
-       <li> DIJO PACO, ESO ES PARTEEEE </li>
+       <li> DIJO PACO, ESO ES PARTEEEE!!! </li>
        <li> Habra querido decir carabineros de Chile </li>
+       <li> BUENOS DIAS, BUENAS TARDES!!! </li>
         </random>
     </template>
   </category>
   
+  <category>
+    <pattern>PACO</pattern>
+    <template>
+        <random>
+       <li> DIJO PACO, ESO ES PARTEEEE!!! </li>
+       <li> Habra querido decir carabineros de Chile </li>
+       <li> BUENOS DIAS, BUENAS TARDES!!! </li>
+        </random>
+    </template>
+  </category>
+  
+    <category>
+    <pattern>DONDE ENCUENTRO UN LUGAR PARA BAILAR</pattern>
+    <template>Si quieres bailar hay varias discos en el sector de bajo molle, le llaman la T</template>
+  </category>
+  
+  <category>
+    <pattern>DONDE ENCUENTRO UN BUEN LUGAR PARA BAILAR</pattern>
+    <template>Si quieres bailar hay varias discos en el sector de bajo molle, le llaman la T</template>
+  </category>
+  
+   <category>
+    <pattern>DONDE HAY UN BUEN LUGAR PARA BAILAR</pattern>
+    <template>Si quieres bailar hay varias discos en el sector de bajo molle, le llaman la T</template>
+  </category>
+  
+  <category>
+    <pattern>DONDE HAY UN LUGAR PARA BAILAR</pattern>
+    <template>Si quieres bailar hay varias discos en el sector de bajo molle, le llaman la T</template>
+  </category>
 
+  <category>
+    <pattern>QUIERO BAILAR</pattern>
+    <template>wena party man, Si quieres bailar hay varias discos en el sector de bajo molle, le llaman la T</template>
+  </category>
+  
+ <category>
+    <pattern>DONDE PUEDO BAILAR</pattern>
+    <template>Si quieres bailar hay varias discos en el sector de bajo molle, le llaman la T</template>
+  </category>
 
+ <category>
+    <pattern>LUGARES PARA BAILAR</pattern>
+    <template>Si quieres bailar hay varias discos en el sector de bajo molle, le llaman la T</template>
+  </category>
+  
+   <category>
+    <pattern>LUGARES DE BAILE</pattern>
+    <template>Si quieres bailar hay varias discos en el sector de bajo molle, le llaman la T</template>
+  </category>
+  
+  <category>
+    <pattern>BAILAR</pattern>
+    <template><think><set name="topic">bailar</set></think>
+    Â¿Estas buscando un lugar para bailar?
+    </template>
+  </category>
+  
+   <category>
+    <pattern>BAILE</pattern>
+    <template><think><set name="topic">baile</set></think>
+    Â¿Estas buscando un lugar para bailar?
+    </template>
+  </category>
+  
+    <topic name="bailar">
+    <category>
+    <pattern>SI</pattern>
+    <template>
+    La direcciÃ³n de la primera comisaria se encuentra en: Bernado O'Higgins 427
+    </template>
+   </category>
+
+   <category>
+    <pattern>NO</pattern>
+    <template>
+   Es que como preguntaste por bailar, pense que andabas buscando un lugar para mover los pies.
+    </template>
+   </category>
+   
+      <category>
+    <pattern>*</pattern>
+    <template>
+      no entiendo tu respuesta. Â¿podrÃ­as hacer de nuevo la pregunta?
+    </template>
+   </category>
+   
+  </topic>
+  
+      <topic name="baile">
+    <category>
+    <pattern>SI</pattern>
+    <template>
+    La direcciÃ³n de la primera comisaria se encuentra en: Bernado O'Higgins 427
+    </template>
+   </category>
+
+   <category>
+    <pattern>NO</pattern>
+    <template>
+   Es que como preguntaste por bailar, pense que andabas buscando un lugar para mover los pies.
+    </template>
+   </category>
+   
+      <category>
+    <pattern>*</pattern>
+    <template>
+      no entiendo tu respuesta. Â¿podrÃ­as hacer de nuevo la pregunta?
+    </template>
+   </category>
+   
+  </topic>
 
 
 </aiml>
