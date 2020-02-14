@@ -37,32 +37,18 @@
     Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
     </template>
    </category>
-   
-   <category>
-    <pattern>CORRECTO</pattern>
-    <template>
-    Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
-    </template>
-   </category>
-   
-   <category>
-    <pattern>AFIRMATIVO</pattern>
-    <template>
-    Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
-    </template>
-   </category>
-   
-    <category>
-    <pattern>ESO ES LO QUE BUSCO</pattern>
-    <template>
-    Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
-    </template>
-   </category>
-   
+
    <category>
     <pattern>NO</pattern>
     <template>
    Es que como preguntaste por comida, pense que andabas buscando un lugar para comer, Â¿en que te puedo ayudar?
+    </template>
+   </category>
+   
+        <category>
+    <pattern>*</pattern>
+    <template>
+      no entiendo tu respuesta. Â¿podrÃ­as responder de nuevo a la pregunta estas buscando una lugar para comer?
     </template>
    </category>
    
@@ -77,30 +63,16 @@
    </category>
    
    <category>
-    <pattern>CORRECTO</pattern>
-    <template>
-    Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
-    </template>
-   </category>
-   
-   <category>
-    <pattern>AFIRMATIVO</pattern>
-    <template>
-    Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
-    </template>
-   </category>
-   
-    <category>
-    <pattern>ESO ES LO QUE BUSCO</pattern>
-    <template>
-    Existen varios locales de comida dentro de las zonas de la peninsula, el paseo baquedano, el mall Zofri, el mall Plaza, playa cavancha
-    </template>
-   </category>
-   
-   <category>
     <pattern>NO</pattern>
     <template>
    Es que como preguntaste por lugares donde comer, pense que andabas buscando un lugar para comer, Â¿en que te puedo ayudar?
+    </template>
+   </category>
+   
+     <category>
+    <pattern>*</pattern>
+    <template>
+      no entiendo tu respuesta. Â¿podrÃ­as responder de nuevo a la pregunta estas buscando una lugar para comer?
     </template>
    </category>
    
@@ -152,30 +124,16 @@
    </category>
    
    <category>
-    <pattern>CORRECTO</pattern>
-    <template>
-   Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
-    </template>
-   </category>
-   
-   <category>
-    <pattern>AFIRMATIVO</pattern>
-    <template>
-   Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
-    </template>
-   </category>
-   
-    <category>
-    <pattern>ESO ES LO QUE BUSCO</pattern>
-    <template>
-   Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
-    </template>
-   </category>
-   
-   <category>
     <pattern>NO</pattern>
     <template>
    Es que como preguntaste por efectivo, pense que andabas buscando un lugar para obtener efectivo de un cajero, pero tambien podrias sacar desdes un sencillito ouna caja vecina cerca
+    </template>
+   </category>
+   
+     <category>
+    <pattern>*</pattern>
+    <template>
+      no entiendo tu respuesta. Â¿podrÃ­as responder de nuevo a la pregunta estas buscando donde sacar efectivo de un cajero?
     </template>
    </category>
    
@@ -189,31 +147,18 @@
     </template>
    </category>
    
-   <category>
-    <pattern>CORRECTO</pattern>
-    <template>
-   Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
-    </template>
-   </category>
-   
-   <category>
-    <pattern>AFIRMATIVO</pattern>
-    <template>
-   Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
-    </template>
-   </category>
-   
-    <category>
-    <pattern>ESO ES LO QUE BUSCO</pattern>
-    <template>
-   Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
-    </template>
-   </category>
-   
+
    <category>
     <pattern>NO</pattern>
     <template>
    Es que como preguntaste por plata, pense que andabas buscando un lugar para obtener efectivo de un cajero, pero tambien podrias sacar desdes un sencillito ouna caja vecina cerca
+    </template>
+   </category>
+   
+     <category>
+    <pattern>*</pattern>
+    <template>
+      no entiendo tu respuesta. Â¿podrÃ­as responder de nuevo a la pregunta estas buscando donde sacar efectivo de un cajero?
     </template>
    </category>
    
@@ -226,32 +171,19 @@
      Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
     </template>
    </category>
-   
-   <category>
-    <pattern>CORRECTO</pattern>
-    <template>
-   Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
-    </template>
-   </category>
-   
-   <category>
-    <pattern>AFIRMATIVO</pattern>
-    <template>
-   Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
-    </template>
-   </category>
-   
-    <category>
-    <pattern>ESO ES LO QUE BUSCO</pattern>
-    <template>
-   Si esta dentro de las horas de entre 8 a 20, la mejor opciÃ³n es la centro de Iquique
-    </template>
-   </category>
+
    
    <category>
     <pattern>NO</pattern>
     <template>
    Es que como preguntaste por cajero, pense que andabas buscando un lugar para obtener efectivo de un cajero, pero tambien podrias sacar desdes un sencillito ouna caja vecina cerca
+    </template>
+   </category>
+   
+  <category>
+    <pattern>*</pattern>
+    <template>
+      no entiendo tu respuesta. Â¿podrÃ­as responder de nuevo a la pregunta estas buscando donde sacar efectivo de un cajero?
     </template>
    </category>
    
@@ -278,30 +210,16 @@
    </category>
    
    <category>
-    <pattern>CORRECTO</pattern>
-    <template>
-  La direcciÃ³n de la primera comisaria se encuentra en: Bernado O'Higgins 427
-    </template>
-   </category>
-   
-   <category>
-    <pattern>AFIRMATIVO</pattern>
-    <template>
-   La direcciÃ³n de la primera comisaria se encuentra en: Bernado O'Higgins 427
-    </template>
-   </category>
-   
-    <category>
-    <pattern>ESO ES LO QUE BUSCO</pattern>
-    <template>
-   La direcciÃ³n de la primera comisaria se encuentra en: Bernado O'Higgins 427
-    </template>
-   </category>
-   
-   <category>
     <pattern>NO</pattern>
     <template>
    Es que como preguntaste por carabineros, pense que andabas buscando la primera comisaria de carabineros.
+    </template>
+   </category>
+   
+         <category>
+    <pattern>*</pattern>
+    <template>
+      no entiendo tu respuesta. Â¿podrÃ­as responder de nuevo a la pregunta: Estas buscando la direcciÃ³n de los carabineros?
     </template>
    </category>
    
@@ -388,7 +306,7 @@
     <category>
     <pattern>SI</pattern>
     <template>
-    La direcciÃ³n de la primera comisaria se encuentra en: Bernado O'Higgins 427
+    Si quieres bailar hay varias discos en el sector de bajo molle, le llaman la T
     </template>
    </category>
 
@@ -412,7 +330,7 @@
     <category>
     <pattern>SI</pattern>
     <template>
-    La direcciÃ³n de la primera comisaria se encuentra en: Bernado O'Higgins 427
+   Si quieres bailar hay varias discos en el sector de bajo molle, le llaman la T
     </template>
    </category>
 
@@ -426,7 +344,7 @@
       <category>
     <pattern>*</pattern>
     <template>
-      no entiendo tu respuesta. Â¿podrÃ­as hacer de nuevo la pregunta?
+      no entiendo tu respuesta. Â¿podrÃ­as responder de nuevo a la pregunta si estas buscando lugares para bailar?
     </template>
    </category>
    
